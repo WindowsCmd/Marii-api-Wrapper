@@ -11,7 +11,7 @@ const marii = require('marii');
 
 let marii_ = new marii();
 
-marii_.hentai().then((res) => console.log(res))
+marii_.neko().then((res) => console.log(res))
 ```
 
 Sample of getting hentai: 
