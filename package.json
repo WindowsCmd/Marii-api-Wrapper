@@ -1,6 +1,6 @@
 {
   "name": "marii-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js wrapper for the marii api",
   "main": "index.js",
   "directories": {
@@ -13,6 +13,5 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1"
-  },
-  "type": "module"
+  }
 }
