@@ -1,4 +1,4 @@
-const marii = require('../src/index.js');
+const marii = require('../index.js');
 
 let marii_ = new marii();
 

@@ -33,6 +33,25 @@ class marii {
         })
     }
 
+    boobs(){
+        return new Promise((resolve, reject) => {
+            this.request("/api/v1/img/boobs")
+            .then((res) => {
+                resolve(res.url);
+            })
+        })
+    }
+
+    ass(){
+        return new Promise((resolve, reject) => {
+            this.request("/api/v1/img/ass")
+            .then((res) => {
+                resolve(res.url);
+            })
+        })
+    }
+
+
     porn(){
         return new Promise((resolve, reject) => {
             this.request("/api/v1/img/porn")
